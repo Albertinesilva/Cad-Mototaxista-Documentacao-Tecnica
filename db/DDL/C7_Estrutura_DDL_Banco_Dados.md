@@ -1,4 +1,4 @@
-```db
+```mysql
     create table auditoria_registros (
         data_criacao timestamp(6),
         data_evento timestamp(6) not null,
