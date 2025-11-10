@@ -1,3 +1,17 @@
+﻿<h2 align="center">CadMototaxista - Documentação Técnica</h2>
+
+## Trechos de Segurança e Autenticação
+
+O sistema **CADMOTOTAXISTA** utiliza **Spring Security** para gerenciar autenticação, autorização e controle de sessões de usuários.
+
+Principais responsabilidades:
+- Definir permissões de acesso conforme os perfis de usuário: **Administrador, Funcionário e Cliente**;  
+- Configurar regras para páginas públicas e restritas, controle de login, logout e expiração de sessão;  
+- Implementar política de “lembrar-me” para sessões persistentes;  
+- Codificar senhas utilizando **BCrypt**;  
+- Manter registro de sessões ativas, garantindo rastreabilidade e segurança dos acessos.
+---
+
 ```java
 package br.gov.ba.saj.smtt.cadmototaxistas.security.infra;
 
