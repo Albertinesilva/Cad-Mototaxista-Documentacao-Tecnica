@@ -163,6 +163,6 @@ Uma vez concluído o processo, a aplicação fica disponível publicamente no en
 ```http
 https://cad-mototaxistas.herokuapp.com
 ```
-#### Disponivel em: [CADMOTOTAXISTA](https://cad-mototaxistas.herokuapp.com)
+#### 🔗 Disponivel em: [CADMOTOTAXISTA](https://cad-mototaxistas.herokuapp.com)
 
 Esse modelo de deploy contínuo garante agilidade, rastreabilidade e consistência nas publicações, sendo especialmente adequado para ambientes de desenvolvimento e demonstração acadêmica.
