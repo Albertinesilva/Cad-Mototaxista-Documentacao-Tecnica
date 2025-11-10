@@ -8,7 +8,7 @@ Principais características:
 - Executa scripts SQL em ordem sequencial, seguindo o padrão de nomenclatura `VXX__descricao.sql`;  
 - Cada versão (`V01`, `V02`, … `V27`) representa uma alteração, desde a **criação inicial das tabelas (CREATE TABLE)** até **ajustes e evoluções estruturais (ALTER TABLE)**;  
 - Facilita manutenção, auditoria e reprodutibilidade do banco de dados em diferentes ambientes de desenvolvimento e produção;
-#### Disponivel em: [Migratios](https://github.com/Albertinesilva/workshop-javafx-jdbc)
+#### Disponivel em: [https://github.com/Albertinesilva/Cadmototaxista-Documentacao-Tecnica/tree/main/db/migration)
 ---
 ### Estrutura DDL do Banco de Dados
 
@@ -21,5 +21,6 @@ Principais características:
 - Centraliza todas as instruções que sustentam o **modelo lógico do banco de dados**, facilitando manutenção e auditoria.
 #### Disponivel em: [DDL](https://github.com/Albertinesilva/Cadmototaxista-Documentacao-Tecnica/blob/main/db/DDL/C7_Estrutura_DDL_PostgreSQL.md)
 #### Disponivel em: [Diagrama](https://github.com/Albertinesilva/Cadmototaxista-Documentacao-Tecnica/blob/main/db/diagrama/modelo_relacional.md)
+
 
 
