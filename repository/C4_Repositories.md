@@ -1,4 +1,4 @@
-﻿<h2 align="center">CadMototaxista - Documentação Técnica</h2>
+﻿<h2 align="center">CAD-MOTOTAXISTA - Documentação Técnica</h2>
 
 ### Repositórios (UsuarioRepository)
 
