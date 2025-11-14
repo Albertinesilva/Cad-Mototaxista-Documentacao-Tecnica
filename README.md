@@ -81,6 +81,11 @@ Além disso, o repositório contém a documentação completa do sistema, inclui
       <td>Instruções de configuração, variáveis de ambiente e deploy no Heroku.</td>
       <td><a href="https://github.com/Albertinesilva/Cadmototaxista-Documentacao-Tecnica/blob/main/config/C9_Execucao_Sistema.md">Execução do Sistema</a></td>
     </tr>
+     <tr>
+      <td><strong>Apache JMeter</strong></td>
+      <td>Avaliação de carga, estresse e desempenho da aplicação por meio da simulação de múltiplos usuários.</td>
+      <td><a href="https://github.com/Albertinesilva/jmeter/blob/main/config/C10_apache_jmeter.md">Teste de desempenho</a></td>
+    </tr>
   </tbody>
 </table>
 
@@ -102,3 +107,4 @@ O autor **não se responsabiliza por danos diretos ou indiretos** resultantes do
 | 🌎 LinkedIn                                                              | 👨‍💻 **Autor**                                                                 |
 | ------------------------------------------------------------------------ | ---------------------------------------------------------------------------- |
 | [LinkedIn](https://www.linkedin.com/in/albert-backend-java-spring-boot/) | [Albert Silva](https://www.linkedin.com/in/albert-backend-java-spring-boot/) |
+
