@@ -1,12 +1,12 @@
 <h2 align="center">CAD-MOTOTAXISTA - Documentação Técnica</h2>
 
-### Execução do Sistema
+### 1 Execução do Sistema
 
 A execução do sistema CADMOTOTAXISTA ocorre por meio da aplicação Spring Boot, que integra todos os módulos de backend, frontend (Thymeleaf) e acesso ao banco de dados PostgreSQL.
 O processo de inicialização foi projetado para garantir o carregamento ordenado dos componentes, a verificação de dependências e a disponibilidade dos serviços essenciais da aplicação.
 
 ---
-1. Inicialização da Aplicação
+#### 1.1 Inicialização da Aplicação
 
 A execução é iniciada pelo comando:
 ```java
@@ -26,13 +26,26 @@ Durante o processo de inicialização, o Spring Boot realiza:
 - Inicialização do servidor embutido Apache Tomcat, responsável por disponibilizar a interface web.
 ---
 
-2. Acesso à Interface Web
+#### 2. Acesso à Interface Web
 
 Após a inicialização, o sistema é acessível por meio do navegador:
 ```properties
 http://localhost:8080/
 ```
+---
+#### 2.1 Credenciais de Acesso para Testes (Ambiente de Demonstração)
 
+- Para fins de teste e navegação pela banca examinadora, um usuário institucional foi criado exclusivamente para esse ambiente:
+
+```javaScript
+E-mail: cadmototaxista@saj.gov.br
+Senha: Teste@2025
+```
+#### 🔗 Disponivel em: [CAD-MOTOTAXISTA](https://cad-mototaxistas.herokuapp.com)
+> ⚠️ Observação: Essas credenciais são destinadas apenas para avaliação acadêmica e não devem ser utilizadas em ambientes de produção.
+---
+
+#### 2.2 Funcionalidades Disponíveis na Interface
 A interface gráfica, desenvolvida com Thymeleaf e Bootstrap, fornece acesso aos módulos administrativos da Secretaria Municipal de Trânsito e Transporte (SMTT), permitindo:
 
 - Gerenciamento de Condutores, Clientes e Funcionários;
@@ -43,7 +56,7 @@ A interface gráfica, desenvolvida com Thymeleaf e Bootstrap, fornece acesso aos
 
 ---
 
-3. Estrutura de Logs e Monitoramento
+#### 3. Estrutura de Logs e Monitoramento
 
 Durante a execução, o sistema gera registros detalhados de eventos no console e no diretório logs/, incluindo:
 
@@ -55,7 +68,7 @@ Durante a execução, o sistema gera registros detalhados de eventos no console 
 
 ---
 
-4. Configuração do application.properties
+#### 4. Configuração do application.properties
 
 O arquivo `application.properties` concentra as principais configurações do sistema, incluindo idioma, banco de dados, codificação, controle de sessões, envio de e-mails e integrações externas.
 Os parâmetros sensíveis (usuário, senha e chaves de segurança) são definidos como variáveis de ambiente para garantir segurança e portabilidade entre os ambientes de desenvolvimento e produção.
@@ -124,7 +137,7 @@ spring.jpa.properties.hibernate.format_sql=true
 > 💡 **Observação**: O arquivo application.properties deve ser ajustado conforme o ambiente, principalmente nas propriedades de conexão com o banco (spring.datasource.url, username e password).
 ---
 
-Encerramento Controlado
+#### 5 Encerramento Controlado da Aplicação
 
 O encerramento da execução do sistema pode ser realizado de forma simples e segura.
 Caso a aplicação esteja sendo executada via terminal, basta pressionar a combinação de teclas `Ctrl + C`, o que interrompe o processo do servidor embutido do Spring Boot (geralmente o `Tomcat`).
@@ -138,7 +151,7 @@ Essa ação interrompe o servidor de aplicação de forma controlada, liberando 
 - Cache e contexto de sessão.
 
 ---
-Deploy da Aplicação no Heroku
+#### 6. Deploy da Aplicação no Heroku
 
 O deploy do sistema CADMOTOTAXISTA é realizado na plataforma Heroku, que oferece um ambiente de hospedagem em nuvem totalmente integrado ao Git.
 O processo de implantação foi configurado de forma automatizada, permitindo que, a cada push realizado no repositório remoto vinculado ao Heroku, a aplicação seja automaticamente compilada, empacotada e publicada no ambiente de produção.
@@ -146,23 +159,26 @@ O processo de implantação foi configurado de forma automatizada, permitindo qu
 Esse mecanismo de integração contínua simplifica a atualização do sistema, dispensando etapas manuais de compilação e upload de artefatos.
 O fluxo padrão de implantação consiste nas seguintes etapas:
 
-1.Realizar o commit das alterações locais:
+6.1 Etapas do Deploy
+#### 1.Realizar o commit das alterações locais:
 ```bash
 git add .
 git commit -m "Atualização de funcionalidades ou correções"
 ```
-2.Enviar as alterações para o repositório remoto vinculado ao Heroku
+#### 2.Enviar as alterações para o repositório remoto vinculado ao Heroku
 ```bash
 git push ou git push heroku main
 ```
 
-3.Após o envio, o Heroku executa automaticamente o build do projeto, configurando o ambiente de execução (Java + Spring Boot) e iniciando o servidor de aplicação.
+#### 3.Após o envio, o Heroku executa automaticamente o build do projeto, configurando o ambiente de execução (Java + Spring Boot) e iniciando o servidor de aplicação.
 
 Uma vez concluído o processo, a aplicação fica disponível publicamente no endereço fornecido pela plataforma, geralmente no formato:
 
 ```http
 https://cad-mototaxistas.herokuapp.com
 ```
-#### 🔗 Disponivel em: [CADMOTOTAXISTA](https://cad-mototaxistas.herokuapp.com)
-
 Esse modelo de deploy contínuo garante agilidade, rastreabilidade e consistência nas publicações, sendo especialmente adequado para ambientes de desenvolvimento e demonstração acadêmica.
+
+| 🌎 LinkedIn                                                              | 👨‍💻 **Autor**                                                                 |
+| ------------------------------------------------------------------------ | ---------------------------------------------------------------------------- |
+| [LinkedIn](https://www.linkedin.com/in/albert-backend-java-spring-boot/) | [Albert Silva](https://www.linkedin.com/in/albert-backend-java-spring-boot/) |
