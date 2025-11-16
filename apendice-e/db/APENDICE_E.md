@@ -1,38 +1,10 @@
 ﻿<h2 align="center">CAD-MOTOTAXISTA - Documentação Técnica</h2>
 
-### Controle de Versões de Banco de Dados com Flyway
-
-O sistema **CADMOTOTAXISTA** utiliza a ferramenta **Flyway** para realizar o **versionamento e controle de evolução do banco de dados**, garantindo rastreabilidade e integridade das alterações estruturais ao longo do ciclo de desenvolvimento.
-
-Principais características:
-
-- Executa scripts SQL em ordem sequencial, seguindo o padrão de nomenclatura `VXX__descricao.sql`;
-- Cada versão (`V01`, `V02`, … `V27`) representa uma alteração, desde a **criação inicial das tabelas (CREATE TABLE)** até **ajustes e evoluções estruturais (ALTER TABLE)**;
-- Facilita manutenção, auditoria e reprodutibilidade do banco de dados em diferentes ambientes de desenvolvimento e produção;
-
-#### 🔗 Disponivel em: [Migrations](https://github.com/Albertinesilva/Cadmototaxista-Documentacao-Tecnica/tree/main/db/migration)
-
----
-
-### Estrutura DDL do Banco de Dados
-
-O sistema **CADMOTOTAXISTA** utiliza um **banco de dados relacional** projetado para garantir **integridade referencial, consistência e rastreabilidade** das informações da aplicação.
-
-Principais características:
-
-- Contempla entidades centrais: **condutor, cliente, funcionário, motocicleta e usuário**;
-- Inclui tabelas auxiliares para gerenciamento de **endereços, contatos, CNHs e auditoria**;
-- A **Definição de Dados (DDL)** estabelece as instruções SQL para criação de **tabelas, índices e restrições de integridade**, garantindo coerência entre chaves primárias e estrangeiras;
-- Centraliza todas as instruções que sustentam o **modelo lógico do banco de dados**, facilitando manutenção e auditoria.
-
-#### 🔗 Disponivel em: [DDL](https://github.com/Albertinesilva/Cadmototaxista-Documentacao-Tecnica/blob/main/db/DDL/C7_Estrutura_DDL_PostgreSQL.md)
-
-#### 🔗 Disponivel em: [Diagrama](https://github.com/Albertinesilva/Cadmototaxista-Documentacao-Tecnica/blob/main/db/diagrama/modelo_relacional.md)
-
 <p align="justify">
 O Apêndice E apresenta os artefatos fundamentais relacionados à modelagem relacional e ao projeto estrutural do sistema CAD-MOTOTAXISTA, abrangendo desde o controle de versões do banco de dados até os principais diagramas UML utilizados na engenharia de software. Este conjunto de documentos oferece uma visão integrada da arquitetura lógica e dos mecanismos de persistência, assegurando rastreabilidade, padronização e suporte à manutenção evolutiva do sistema. No quadro a seguir, estão organizados os elementos que compõem a modelagem e o projeto, bem como seus respectivos locais de acesso.
 </p>
 
+---
 <table border="2" align="center" style="border-collapse: collapse; text-align:center;">
   <thead>
     <tr style="background-color:#2F4F4F; color:white;">
@@ -85,3 +57,8 @@ O Apêndice E apresenta os artefatos fundamentais relacionados à modelagem rela
     </tr>
   </tbody>
 </table>
+
+---
+| 🌎 LinkedIn                                                              | 👨‍💻 **Autor**                                                                 |
+| ------------------------------------------------------------------------ | ---------------------------------------------------------------------------- |
+| [LinkedIn](https://www.linkedin.com/in/albert-backend-java-spring-boot/) | [Albert Silva](https://www.linkedin.com/in/albert-backend-java-spring-boot/) |
