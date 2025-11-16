@@ -1,4 +1,4 @@
-<h2 align="center">CadMototaxista - Documentação Técnica</h2>
+<h2 align="center">Cad-Mototaxista - Documentação Técnica</h2>
 
 ### D.1 – Documentação JavaDocs
 
