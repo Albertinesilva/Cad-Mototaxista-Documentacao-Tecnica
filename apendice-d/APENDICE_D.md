@@ -44,7 +44,7 @@ O Apêndice D reúne algumas das principais evidências de validação do sistem
     </tr>
     <tr align="center">
       <td>D.5 – BCrypt</td>
-      <td><a href="https://github.com/Albertinesilva/Cadmototaxista-Documentacao-Tecnica/blob/main/apendice-d/seguranca/D5_BCrypt.md">Hash gerado com BCrypt</a></td>
+      <td><a href="https://github.com/Albertinesilva/Cad-mototaxista-Documentacao-Tecnica/blob/main/apendice-d/bcryp/D5_Hash-gerado%20.md">Hash gerado com BCrypt</a></td>
       <td>Criptografia de senhas</td>
     </tr>
   </tbody>
@@ -54,3 +54,4 @@ O Apêndice D reúne algumas das principais evidências de validação do sistem
 | 🌎 LinkedIn                                                              | 👨‍💻 **Autor**                                                                 |
 | ------------------------------------------------------------------------ | ---------------------------------------------------------------------------- |
 | [LinkedIn](https://www.linkedin.com/in/albert-backend-java-spring-boot/) | [Albert Silva](https://www.linkedin.com/in/albert-backend-java-spring-boot/) |
+
