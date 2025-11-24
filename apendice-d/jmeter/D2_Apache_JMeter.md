@@ -20,13 +20,13 @@ D.2.3 – Ambiente de Teste (JMeter)
 
 Os experimentos foram conduzidos em ambiente local, utilizando a seguinte configuração de hardware e software:
 
-<table border="2" align="center" style="border-collapse: collapse; text-align:center;">
+<table border="2" style="border-collapse: collapse; text-align:center;">
   <thead>
     <tr style="background-color:#2F4F4F; color:white;">
       <th colspan="2">Ambiente de Teste</th>
     </tr>
   </thead>
-  <tbody>
+  <tbody align="center">
     <tr style="background-color:#708090; color:white;">
       <th>Componente</th>
       <th>Especificação</th>
@@ -61,7 +61,7 @@ Os experimentos foram conduzidos em ambiente local, utilizando a seguinte config
     </tr>
   </tbody>
 </table>
-<p align="center"><i>A execução foi realizada de forma isolada, sem interferência de outras aplicações, garantindo a confiabilidade dos resultados.</i></p>
+<p><i>A execução foi realizada de forma isolada, sem interferência de outras aplicações, garantindo a confiabilidade dos resultados.</i></p>
 
 ---
 D.2.4 – Metodologia e Métricas Avaliadas
@@ -76,13 +76,13 @@ Método de Execução (Fluxo Seletivo):
 
 Cada cenário foi executado com **20 threads (usuários virtuais)**, configuradas para realizar requisições consecutivas sem ramp-up prolongado, buscando reproduzir uma situação de acesso simultâneo real. Todas as respostas HTTP foram avaliadas em função de tempo de resposta e retorno de status (HTTP 2xx, 4xx, 5xx), garantindo confiabilidade dos resultados.
 
-<table border="2" align="center" style="border-collapse: collapse; text-align:center;">
+<table border="2" style="border-collapse: collapse; text-align:center;">
   <thead>
     <tr style="background-color:#2F4F4F; color:white;">
       <th colspan="2">Métricas Avaliadas (Apache JMeter)</th>
     </tr>
   </thead>
-  <tbody>
+  <tbody align="center">
     <tr style="background-color:#708090; color:white;">
       <th>Métrica</th>
       <th>Descrição Técnica</th>
@@ -109,9 +109,61 @@ Cada cenário foi executado com **20 threads (usuários virtuais)**, configurada
     </tr>
   </tbody>
 </table>
-<p align="center"><i>As métricas comprovam a estabilidade, capacidade de processamento e ausência de falhas no sistema durante a simulação de carga.</i></p>
+<p><i>As métricas comprovam a estabilidade, capacidade de processamento e ausência de falhas no sistema durante a simulação de carga.</i></p>
 
 ---
 D.2.5 – Resultados dos Testes de Desempenho
 
 A tabela a seguir apresenta os resultados consolidados gerados pelo Apache JMeter, considerando a média dos tempos de resposta, variações, taxa de erros e throughput durante a simulação de 20 usuários simultâneos:
+
+<table border="2" style="border-collapse: collapse; text-align:center;">
+  <thead>
+    <tr style="background-color:#2F4F4F; color:white;">
+      <th colspan="8">Resultados dos Testes de Desempenho (Apache JMeter)</th>
+    </tr>
+    <tr style="background-color:#708090; color:white;">
+      <th>Funcionalidade</th>
+      <th>Amostras (n)</th>
+      <th>Tempo Médio (ms)</th>
+      <th>Mínimo (ms)</th>
+      <th>Máximo (ms)</th>
+      <th>Desvio Padrão</th>
+      <th>Erro (%)</th>
+      <th>Throughput</th>
+    </tr>
+  </thead>
+  <tbody align="center">
+    <tr>
+      <td>Login CAD-MOTOTAXISTA</td>
+      <td>20</td>
+      <td>31</td>
+      <td>25</td>
+      <td>68</td>
+      <td>9,50</td>
+      <td>0,00%</td>
+      <td>20,4 req/s</td>
+    </tr>
+    <tr>
+      <td>Cadastro de Mototaxista</td>
+      <td>20</td>
+      <td>3521</td>
+      <td>3128</td>
+      <td>3914</td>
+      <td>215,56</td>
+      <td>0,00%</td>
+      <td>4,4 req/s</td>
+    </tr>
+    <tr>
+      <td>Relatório CAD-MOTOTAXISTA</td>
+      <td>20</td>
+      <td>39</td>
+      <td>29</td>
+      <td>52</td>
+      <td>6,32</td>
+      <td>0,00%</td>
+      <td>20,2 req/s</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><i>Os resultados demonstram desempenho estável e ausência de erros em todos os cenários avaliados.</i></p>
