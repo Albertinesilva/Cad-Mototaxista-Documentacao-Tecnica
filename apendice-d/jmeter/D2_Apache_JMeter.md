@@ -41,7 +41,7 @@ Os experimentos foram conduzidos em ambiente local, utilizando a seguinte config
     </tr>
     <tr>
       <td>Sistema Operacional</td>
-      <td>Windows 10, 64 bits</td>
+      <td>Windows 11, 64 bits</td>
     </tr>
     <tr>
       <td>Ferramenta de Teste</td>
