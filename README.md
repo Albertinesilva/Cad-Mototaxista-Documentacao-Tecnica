@@ -32,7 +32,7 @@ Os apêndices a seguir reúnem os principais artefatos complementares da documen
     <tr align="center">
       <td>APÊNDICE C</td>
       <td>Listagens e versões das tecnologias aplicadas</td>
-      <td><a href="LINK_APENDICE_C">Acessar</a></td>
+      <td><a href="https://github.com/Albertinesilva/Cad-mototaxista-Documentacao-Tecnica/blob/main/apendice-c/APENDICE_C.md">Acessar</a></td>
     </tr>
     <!-- APÊNDICE D -->
     <tr style="background-color:#2F4F4F; color:white;">
@@ -41,7 +41,7 @@ Os apêndices a seguir reúnem os principais artefatos complementares da documen
     <tr align="center">
       <td>APÊNDICE D</td>
       <td>Documentação, testes e validações do sistema</td>
-      <td><a href="LINK_APENDICE_D">Acessar</a></td>
+      <td><a href="https://github.com/Albertinesilva/Cad-mototaxista-Documentacao-Tecnica/blob/main/apendice-d/APENDICE_D.md">Acessar</a></td>
     </tr>
     <!-- APÊNDICE E -->
     <tr style="background-color:#2F4F4F; color:white;">
@@ -50,7 +50,7 @@ Os apêndices a seguir reúnem os principais artefatos complementares da documen
     <tr align="center">
       <td>APÊNDICE E</td>
       <td>Modelagem relacional, DDL e diagramas UML</td>
-      <td><a href="LINK_APENDICE_E">Acessar</a></td>
+      <td><a href="https://github.com/Albertinesilva/Cad-mototaxista-Documentacao-Tecnica/blob/main/apendice-e/APENDICE_E.md">Acessar</a></td>
     </tr>
   </tbody>
 </table>
@@ -72,3 +72,4 @@ O autor **não se responsabiliza por danos diretos ou indiretos** resultantes do
 | 🌎 LinkedIn                                                              | 👨‍💻 **Autor**                                                                 |
 | ------------------------------------------------------------------------ | ---------------------------------------------------------------------------- |
 | [LinkedIn](https://www.linkedin.com/in/albert-backend-java-spring-boot/) | [Albert Silva](https://www.linkedin.com/in/albert-backend-java-spring-boot/) |
+
