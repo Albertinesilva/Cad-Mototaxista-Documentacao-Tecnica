@@ -1,6 +1,6 @@
-<img src="../../assets/img/login/HTTP_login-CAD-MOTOTAXISTA.png" alt="HTTP Login" width="100%" height="100%">
+<img src="../../assets/img/login/HTTP-login-CAD-MOTOTAXISTA.png" alt="HTTP Login" width="100%" height="100%">
 
-<img src="../../assets/img/login/Grupo_de_Usuários.png" alt="Grupo de Usuários" width="100%" height="100%">
+<img src="../../assets/img/login/Grupo-de-Usuários.png" alt="Grupo de Usuários" width="100%" height="100%">
 
 <img src="../../assets/img/login/Relatório-de-Sumário-Login-CAD-MOTOTAXISTA.png" alt="Relatório de Sumario" width="100%" height="100%">
 
