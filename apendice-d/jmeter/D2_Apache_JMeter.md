@@ -232,20 +232,20 @@ As evidências de desempenho coletadas durante os testes de carga são apresenta
   </thead>
   <tbody align="center">
     <tr>
-      <td>Figura X. Relatório de Sumário – Login CAD-MOTOTAXISTA</td>
-      <td><a href="#" target="_blank">Inserir link</a></td>
+      <td>Login CAD-MOTOTAXISTA</td>
+      <td><a href="https://github.com/Albertinesilva/Cad-mototaxista-Documentacao-Tecnica/blob/main/apendice-d/jmeter/LOGIN.md" target="_blank">Aqui – Relatório de Sumário</a></td>
     </tr>
     <tr>
-      <td>Figura X. Relatório de Sumário – Cadastro CAD-MOTOTAXISTA</td>
-      <td><a href="#" target="_blank">Inserir link</a></td>
+      <td>Cadastro CAD-MOTOTAXISTA</td>
+      <td><a href="https://github.com/Albertinesilva/Cad-mototaxista-Documentacao-Tecnica/blob/main/apendice-d/jmeter/CADASTRO.md" target="_blank">Aqui – Relatório de Sumário</a></td>
     </tr>
     <tr>
-      <td>Figura X. Relatório de Sumário – Relatório CAD-MOTOTAXISTA</td>
-      <td><a href="#" target="_blank">Inserir link</a></td>
+      <td>Relatório CAD-MOTOTAXISTA</td>
+      <td><a href="https://github.com/Albertinesilva/Cad-mototaxista-Documentacao-Tecnica/blob/main/apendice-d/jmeter/RELATORIO.md" target="_blank">Aqui – Relatório de Sumário</a></td>
     </tr>
     <tr>
-      <td>Figura X. Árvore de Resultados (View Results Tree) – Validação de Carregamento</td>
-      <td><a href="#" target="_blank">Inserir link</a></td>
+      <td>Árvore de Resultados (View Results Tree) – Validação de Carregamento</td>
+      <td><a href="#" target="_blank">Aqui – Árvore de Resultados</a></td>
     </tr>
   </tbody>
 </table>
