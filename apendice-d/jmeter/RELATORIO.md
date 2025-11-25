@@ -1,6 +1,6 @@
 <h2 align="center">CAD-MOTOTAXISTA - Documentação Técnica</h2>
 
-Relatorios CAD-MOTOTAXISTA - Evidências de Teste
+Relatórios CAD-MOTOTAXISTA - Evidências de Teste
 
 Figura 1 – Configuração da requisição HTTP utilizada para gerar o relatório.
 <img src="../../assets/img/relatorio/HTTP-Request-Relatorio-CAD-MOTOTAXISTA.png" alt="HTTP Relatório" width="100%" height="100%">
