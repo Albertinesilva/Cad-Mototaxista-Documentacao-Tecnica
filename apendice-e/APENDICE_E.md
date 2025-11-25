@@ -28,12 +28,12 @@ O Apêndice E apresenta os artefatos fundamentais relacionados à modelagem rela
     </tr>
     <tr align="center">
       <td>E.2 – Estrutura DDL do Banco de Dados</td>
-      <td>Estrutura DDL</td>
+      <td><a href="https://github.com/Albertinesilva/Cad-mototaxista-Documentacao-Tecnica/blob/main/apendice-e/DDL/C7_Estrutura_DDL_PostgreSQL.md">Estrutura DDL</a></td>
       <td>Definição das tabelas</td>
     </tr>
     <tr align="center">
       <td>E.2.1 – Diagrama do Banco de Dados</td>
-      <td>Modelo Relacional</td>
+      <td><a href="https://github.com/Albertinesilva/Cad-mototaxista-Documentacao-Tecnica/blob/main/apendice-e/diagramas/modelo_relacional.md">Modelo Relacional</a></td>
       <td>Visualização estrutural</td>
     </tr>
     <!-- UML -->
