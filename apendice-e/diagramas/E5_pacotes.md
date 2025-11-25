@@ -2,7 +2,7 @@
 
 <br>
 
-<h3 align="center">Diagrama de Pacotes</h3>
+<h3>Diagrama de Pacotes</h3>
 
 <br>
 
