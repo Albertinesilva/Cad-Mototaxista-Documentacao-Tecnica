@@ -151,4 +151,4 @@ Em síntese, o esforço da etapa atual oferece uma base confiável para a segura
 
 Além do relatório de cobertura disponibilizado via JaCoCo, o código completo dos testes unitários aplicados ao módulo de segurança e autenticação pode ser consultado no repositório público:
 
-🔗 [Testes Unitários Cad-Mototaxista](https://github.com/Albertinesilva/Cad-mototaxista-Documentacao-Tecnica/tree/main/apendice-d/testes-unitarios/test)
+📎 [Testes Unitários Cad-Mototaxista](https://github.com/Albertinesilva/Cad-mototaxista-Documentacao-Tecnica/tree/main/apendice-d/testes-unitarios/test)
