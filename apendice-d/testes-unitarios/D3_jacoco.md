@@ -18,7 +18,6 @@ Essa cobertura demonstra não apenas a execução de métodos críticos, mas tam
 Contudo, o relatório também indica áreas com cobertura parcial, especialmente em componentes auxiliares, controladores secundários e serviços que não influenciam diretamente o fluxo de login. A priorização da camada de segurança decorreu do impacto crítico desse módulo para a proteção do sistema, aliado ao tempo limitado de desenvolvimento da suíte de testes.
 
 ---
-
 ### 1. Tabelas Percentuais com os Pacotes Testados
 
 Para complementar a interpretação dos resultados apresentados no relatório público, foram elaboradas três tabelas resumindo a cobertura de testes do módulo de usuários.
@@ -58,7 +57,6 @@ Para complementar a interpretação dos resultados apresentados no relatório p�
 </table>
 
 ---
-
 #### B) Tabela sem percentuais — classificação qualitativa
 
 <table border="2" style="border-collapse: collapse; text-align:center;">
@@ -94,7 +92,6 @@ Para complementar a interpretação dos resultados apresentados no relatório p�
 </table>
 
 ---
-
 #### C) Tabela de estimativa percentual baseada no escopo de testes aplicado
 
 <table border="2" style="border-collapse: collapse; text-align:center;">
@@ -130,7 +127,6 @@ Para complementar a interpretação dos resultados apresentados no relatório p�
 </table>
 
 ---
-
 ### 2. Conclusão Final da Seção (Cobertura de Testes)
 
 A análise da cobertura de testes obtida pelo JaCoCo reforça que o foco estratégico nos componentes críticos de segurança — especificamente as classes relacionadas ao gerenciamento de usuários — foi bem-sucedido. Apesar de o escopo ter sido limitado pelas restrições de tempo, os testes alcançaram cobertura significativa nas entidades, repositórios, serviços e controllers que sustentam os fluxos de autenticação, ativação de conta e redefinição de senha.
