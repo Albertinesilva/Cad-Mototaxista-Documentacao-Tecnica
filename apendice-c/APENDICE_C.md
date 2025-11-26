@@ -28,47 +28,47 @@ O Apêndice C organiza algumas das principais listagens e versões das tecnologi
     </tr>
     <tr align="center">
       <td>C.1 – Tecnologias</td>
-      <td><a href="https://github.com/Albertinesilva/Cad-mototaxista-Documentacao-Tecnica/blob/main/apendice-c/tecnologias/C1_versoes-utilizadas.md">Versões</a></td>
+      <td><a href="https://github.com/Albertinesilva/Cad-Mototaxista-Documentacao-Tecnica/blob/main/apendice-c/tecnologias/C1_versoes-utilizadas.md">Versões</a></td>
       <td>Tecnologias utilizadas</td>
     </tr>
     <tr align="center">
       <td>C.3 – Execução do Sistema</td>
-      <td><a href="https://github.com/Albertinesilva/Cad-mototaxista-Documentacao-Tecnica/blob/main/apendice-c/config/C3_Execucao_Sistema.md">Executar CAD-MOTOTAXISTA</a></td>
+      <td><a href="https://github.com/Albertinesilva/Cad-Mototaxista-Documentacao-Tecnica/blob/main/apendice-c/config/C3_Execucao_Sistema.md">Executar CAD-MOTOTAXISTA</a></td>
       <td>Inicialização do sistema</td>
     </tr>
     <tr align="center">
       <td>C.3.1 – Aplicação (Produção)</td>
-      <td><a href="https://github.com/Albertinesilva/Cad-mototaxista-Documentacao-Tecnica/blob/main/apendice-c/aplicacao/C3_1_Acesso_Aplicacao.md">Acesso à Aplicação</a></td>
+      <td><a href="https://github.com/Albertinesilva/Cad-Mototaxista-Documentacao-Tecnica/blob/main/apendice-c/aplicacao/C3_1_Acesso_Aplicacao.md">Acesso à Aplicação</a></td>
       <td>Ambiente produtivo</td>
     </tr>
     <tr align="center">
       <td>C.4 – Controller do Módulo de Alvará</td>
-      <td><a href="https://github.com/Albertinesilva/Cad-mototaxista-Documentacao-Tecnica/blob/main/apendice-c/controller/C4_Controller_Alvara.md">JasperController</a></td>
+      <td><a href="https://github.com/Albertinesilva/Cad-Mototaxista-Documentacao-Tecnica/blob/main/apendice-c/controller/C4_Controller_Alvara.md">JasperController</a></td>
       <td>Camada de entrada</td>
     </tr>
     <tr align="center">
       <td>C.5 – Service do Módulo de Alvará</td>
-      <td><a href="https://github.com/Albertinesilva/Cad-mototaxista-Documentacao-Tecnica/blob/main/apendice-c/service/C5_Service_Alvara.md">JasperService</a></td>
+      <td><a href="https://github.com/Albertinesilva/Cad-Mototaxista-Documentacao-Tecnica/blob/main/apendice-c/service/C5_Service_Alvara.md">JasperService</a></td>
       <td>Lógica de negócio</td>
     </tr>
     <tr align="center">
       <td>C.6 – Trechos de Segurança e Autenticação</td>
-      <td><a href="https://github.com/Albertinesilva/Cad-mototaxista-Documentacao-Tecnica/blob/main/apendice-c/security/C6_Seguranca_Autenticacao.md">Spring Security</a></td>
+      <td><a href="https://github.com/Albertinesilva/Cad-Mototaxista-Documentacao-Tecnica/blob/main/apendice-c/security/C6_Seguranca_Autenticacao.md">Spring Security</a></td>
       <td>Controle de acesso</td>
     </tr>
     <tr align="center">
       <td>C.7 – Repositórios (Repositories)</td>
-      <td><a href="https://github.com/Albertinesilva/Cad-mototaxista-Documentacao-Tecnica/blob/main/apendice-c/repository/C7_Repositories.md">Spring Data JPA</a></td>
+      <td><a href="https://github.com/Albertinesilva/Cad-Mototaxista-Documentacao-Tecnica/blob/main/apendice-c/repository/C7_Repositories.md">Spring Data JPA</a></td>
       <td>Acesso a dados</td>
     </tr>
     <tr align="center">
       <td>C.8 – Regras de Negócio Sensíveis</td>
-      <td><a href="https://github.com/Albertinesilva/Cad-mototaxista-Documentacao-Tecnica/blob/main/apendice-c/service/metodos/C8_Regras_Negocio_Sensiveis.md">Sensíveis</a></td>
+      <td><a href="https://github.com/Albertinesilva/Cad-Mototaxista-Documentacao-Tecnica/blob/main/apendice-c/service/metodos/C8_Regras_Negocio_Sensiveis.md">Sensíveis</a></td>
       <td>Validações críticas</td>
     </tr>
     <tr align="center">
       <td>C.8.1 – Integração com o Serviço Externo ViaCEP</td>
-      <td><a href="https://github.com/Albertinesilva/Cad-mototaxista-Documentacao-Tecnica/blob/main/apendice-c/api/C8_1_Integracao_ViaCEP.md">Integração ViaCep</a></td>
+      <td><a href="https://github.com/Albertinesilva/Cad-Mototaxista-Documentacao-Tecnica/blob/main/apendice-c/api/C8_1_Integracao_ViaCEP.md">Integração ViaCep</a></td>
       <td>Consulta de CEP</td>
     </tr>
   </tbody>

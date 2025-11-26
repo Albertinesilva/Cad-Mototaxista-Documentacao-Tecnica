@@ -34,22 +34,22 @@ O Apêndice D reúne algumas das principais evidências de validação do sistem
     </tr>
     <tr align="center">
       <td>D.2 – JMeter</td>
-      <td><a href="https://github.com/Albertinesilva/Cad-mototaxista-Documentacao-Tecnica/blob/main/apendice-d/jmeter/D2_Apache_JMeter.md">Relatórios de Desempenho</a></td>
+      <td><a href="https://github.com/Albertinesilva/Cad-Mototaxista-Documentacao-Tecnica/blob/main/apendice-d/jmeter/D2_Apache_JMeter.md">Relatórios de Desempenho</a></td>
       <td>Testes de carga</td>
     </tr>
     <tr align="center">
       <td>D.3 – Testes Unitários</td>
-      <td><a href="https://github.com/Albertinesilva/Cad-mototaxista-Documentacao-Tecnica/blob/main/apendice-d/testes-unitarios/D3_jacoco.md">Relatórios Jacoco</a></td>
+      <td><a href="https://github.com/Albertinesilva/Cad-Mototaxista-Documentacao-Tecnica/blob/main/apendice-d/testes-unitarios/D3_jacoco.md">Relatórios Jacoco</a></td>
       <td>Cobertura de testes</td>
     </tr>
     <tr align="center">
       <td>D.4 – Códigos de Resposta HTTP</td>
-      <td><a href="https://github.com/Albertinesilva/Cad-mototaxista-Documentacao-Tecnica/blob/main/apendice-d/resposta-http/D4_autorizacao.md">Status HTTP</a></td>
+      <td><a href="https://github.com/Albertinesilva/Cad-Mototaxista-Documentacao-Tecnica/blob/main/apendice-d/resposta-http/D4_autorizacao.md">Status HTTP</a></td>
       <td>Validação de acesso</td>
     </tr>
     <tr align="center">
       <td>D.5 – BCrypt</td>
-      <td><a href="https://github.com/Albertinesilva/Cad-mototaxista-Documentacao-Tecnica/blob/main/apendice-d/bcryp/D5_Hash-gerado%20.md">Hash gerado com BCrypt</a></td>
+      <td><a href="https://github.com/Albertinesilva/Cad-Mototaxista-Documentacao-Tecnica/blob/main/apendice-d/bcryp/D5_Hash-gerado%20.md">Hash gerado com BCrypt</a></td>
       <td>Criptografia de senhas</td>
     </tr>
   </tbody>
