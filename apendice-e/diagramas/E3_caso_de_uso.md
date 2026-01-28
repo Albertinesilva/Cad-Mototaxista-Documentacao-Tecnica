@@ -14,5 +14,4 @@ Em síntese, a modelagem funcional por meio do diagrama de casos de uso oferece 
 
 <br>
 
-<img src="../../assets/img/diagramas/UseCase-Cad-Mototaxista.svg" alt="Diagrama de Caso de Uso do CAD-MOTOTAXISTA" width="100%" height="100%">
-<p><em>Figura E.3 - Diagrama de Caso de Uso do CAD-MOTOTAXISTA</em></p>
+`Diagrama de caso de uso`<img src="../../assets/img/diagramas/UseCase-Cad-Mototaxista.svg" alt="Diagrama de Caso de Uso do CAD-MOTOTAXISTA" width="100%" height="100%">`Fonte: Elaborado pelo autor (2025)`
