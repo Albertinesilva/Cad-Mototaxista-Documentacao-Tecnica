@@ -16,7 +16,7 @@ Para assegurar clareza e melhor compreensão da estrutura do sistema, o diagrama
 
 A primeira parte do diagrama concentra-se nas classes fundamentais relacionadas à autenticação, autorização e gerenciamento de usuários. Destaca-se a classe abstrata `AbstractEntity`, que fornece o atributo identificador (`id`) e métodos comuns, promovendo padronização e redução de redundância entre as entidades do sistema.
 
-<img src="../../assets/img/diagramas/Class-Cad-Mototaxista-Parte-1.svg" alt="Diagrama de Classes Parte 1" style="display: block; margin: 0 auto; max-width: 100%; height: auto;">
+`Diagrama de Classes – Parte 1`<img src="../../assets/img/diagramas/Class-Cad-Mototaxista-Parte-1.svg" alt="Diagrama de Classes Parte 1" style="display: block; margin: 0 auto; max-width: 100%; height: auto;">`Fonte: Elaborado pelo autor (2025)`
 
 As classes `Usuario`, `Funcionario` e `Cliente` estruturam os diferentes perfis de acesso, estabelecendo distinções claras entre usuários administrativos e usuários finais. A classe `Perfil` gerencia os níveis de permissão, assegurando que cada usuário possua acessos compatíveis com suas responsabilidades no sistema.
 
@@ -28,7 +28,7 @@ Além disso, as classes `Endereco` e `Contato` são associadas a usuários e cli
 
 Complementando a estrutura apresentada na Parte 1, o Diagrama de Classes – Parte 2 concentra-se no domínio dos condutores e de suas respectivas motocicletas. A classe central `Condutor` armazena dados pessoais — como nome, CPF, RG e tipo sanguíneo — e dados operacionais, incluindo situação do cadastro, datas de criação e modificação, bem como responsáveis pelas alterações, assegurando controle e rastreabilidade.
 
-<img src="../../assets/img/diagramas/Class-Cad-Mototaxista-Parte-2.svg" alt="Diagrama de Classes Parte 2" style="display: block; margin: 0 auto; max-width: 100%; height: auto;">
+`Diagrama de Classes – Parte 2`<img src="../../assets/img/diagramas/Class-Cad-Mototaxista-Parte-2.svg" alt="Diagrama de Classes Parte 2" style="display: block; margin: 0 auto; max-width: 100%; height: auto;">`Fonte: Elaborado pelo autor (2025)`
 
 A classe `Condutor` se associa diretamente às classes `Endereco` e `Contato`, garantindo que cada condutor possua obrigatoriamente um endereço registrado e informações de contato válidas. O relacionamento com a classe `Cnh` permite gerenciar dados da carteira de habilitação, como número, validade e categoria, assegurando conformidade legal e controle dos registros profissionais.
 
@@ -40,7 +40,7 @@ No contexto geral, essa modelagem estrutural é fundamental para organizar de fo
 
 O Diagrama de Enumerações ilustra os tipos enumerados da camada de domínio do sistema CAD-MOTOTAXISTA. As enumerações definem conjuntos fixos e limitados de valores, garantindo integridade dos dados, padronização das informações e redução de inconsistências durante o processamento das regras de negócio.
 
-<img src="../../assets/img/diagramas/Enumeracoes.svg" alt="Diagrama de Enumerações" style="display: block; margin: 0 auto; max-width: 100%; height: auto;">
+`Diagrama de Enumerações`<img src="../../assets/img/diagramas/Enumeracoes.svg" alt="Diagrama de Enumerações" style="display: block; margin: 0 auto; max-width: 100%; height: auto;">`Fonte: Elaborado pelo autor (2025)`
 
 No domínio dos condutores e veículos, destacam-se as enumerações `ETipoSanguineo`, que define os tipos sanguíneos possíveis; `EModalidadeDeCondutor`, que distingue se o profissional atua como mototaxista, motofretista ou ambas as modalidades; e `ECategoria`, que lista as categorias da CNH. Para o contexto das motocicletas, `ETipoPlaca` padroniza os tipos de placa (Mercosul ou antiga), enquanto `ESituacaoMoto` define se a motocicleta é própria ou locada.
 
