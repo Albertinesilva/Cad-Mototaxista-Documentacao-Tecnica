@@ -17,9 +17,7 @@ Esses aspectos são fundamentais para a **fiscalização e gestão pública dos 
 
 <br>
 
-  <img src="../../assets/img/Modelo_Relacional.png" alt="Modelo Relacional" width="100%" height="100%">
-
-**Fonte:** Modelo físico relacional do sistema CAD-MOTOTAXISTA (2025).
+<img src="../../assets/img/Modelo_Relacional.png" alt="Modelo Relacional" width="100%" height="100%">**Fonte**`:Modelo físico relacional do sistema CAD-MOTOTAXISTA (2025)`.
 
 ### 📌 Estrutura de Agrupamento das Tabelas
 
