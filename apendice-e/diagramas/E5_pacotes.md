@@ -6,7 +6,11 @@
 
 O diagrama de pacotes é uma ferramenta de modelagem estrutural que permite organizar e agrupar os elementos do sistema em unidades lógicas, evidenciando as dependências e relações entre seus componentes *(IBM, 2021)*. Esse tipo de diagrama é fundamental para reduzir a complexidade do software, promover a modularidade e facilitar a manutenção, além de fornecer uma visão clara da arquitetura e das interações entre diferentes partes do sistema.
 
+`Diagrama de pacotes` 
+
 <img src="../../assets/img/diagramas/Package-Cad-Mototaxista.svg" alt="Diagrama de Pacotes" style="display: block; margin: 0 auto; max-width: 100%; height: auto;">
+
+`Fonte: Elaborado pelo autor (2025)`
 
 No **CAD-MOTOTAXISTA**, o diagrama de pacotes foi construído com base na arquitetura MVC (Model-View-Controller), estruturando o sistema em três pacotes principais: <strong>View</strong>, <strong>Controller</strong> e <strong>Model</strong>. O pacote <em>View</em> é responsável pela apresentação de formulários, listas, relatórios e informações ao usuário. O pacote <em>Controller</em> gerencia os eventos e coordena a execução das operações, atuando como intermediário entre a camada de apresentação e a camada de dados. O pacote <em>Model</em> concentra as classes que representam as entidades do sistema, os serviços e as regras de negócio, assegurando a integridade e a consistência das informações manipuladas.
 
