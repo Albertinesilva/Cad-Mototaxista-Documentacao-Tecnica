@@ -38,7 +38,7 @@ O Apêndice E apresenta os artefatos fundamentais relacionados à modelagem rela
     </tr>
     <tr align="center">
       <td>E.2.1 – Diagrama do Banco de Dados</td>
-      <td><a href="https://github.com/Albertinesilva/Cad-Mototaxista-Documentacao-Tecnica/blob/main/apendice-e/diagramas/E2-!_modelo_relacional.md">Modelo Relacional</a></td>
+      <td><a href="https://github.com/Albertinesilva/Cad-Mototaxista-Documentacao-Tecnica/blob/main/apendice-e/diagramas/E2-1_modelo_relacional.md">Modelo Relacional</a></td>
       <td>Visualização estrutural</td>
     </tr>
     <!-- UML -->
