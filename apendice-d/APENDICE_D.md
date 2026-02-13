@@ -57,6 +57,21 @@ O Apêndice D reúne algumas das principais evidências de validação do sistem
 
 ---
 
-| 🌎 LinkedIn                                                              | 👨‍💻 **Autor**                                                                 |
-| ------------------------------------------------------------------------ | ---------------------------------------------------------------------------- |
-| [LinkedIn](https://www.linkedin.com/in/albert-backend-java-spring-boot/) | [Albert Silva](https://www.linkedin.com/in/albert-backend-java-spring-boot/) |
+## 👨‍💻 Autor
+
+**Albert Silva de Jesus**  
+Desenvolvedor Backend Java | Spring Boot  
+
+---
+
+### 📎 Contato
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/albert-backend-java-spring-boot/)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:albertinesilva.17@gmail.com?subject=Contato%20sobre%20o%20projeto%20CAD-MOTOTAXISTA)
+
+---
+
+### 🎓 Contexto Acadêmico
+
+Projeto desenvolvido como Trabalho de Conclusão de Curso (TCC)  
+Instituto Federal da Bahia (IFBA).
