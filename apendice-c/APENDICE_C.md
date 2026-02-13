@@ -99,6 +99,7 @@ Instituto Federal da Bahia (IFBA).
 
 <p align="center">
   <a href="../README.md">🏠 Início</a> |
-  <a href="../apendice-d">Próximo Apêndice ➡</a>
+  <a href="../APENDICE-D">Próximo Apêndice ➡</a>
 </p>
+
 
