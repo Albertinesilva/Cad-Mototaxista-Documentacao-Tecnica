@@ -76,8 +76,10 @@ Desenvolvedor Backend Java | Spring Boot
 Projeto desenvolvido como Trabalho de Conclusão de Curso (TCC)  
 Instituto Federal da Bahia (IFBA).
 
+---
 <p align="center">
   <a href="../apendice-c/APENDICE_C.md">⬅ Apêndice Anterior</a> |
   <a href="../README.md">🏠 Início</a> |
   <a href="../apendice-e/APENDICE_E.md">Próximo Apêndice ➡</a>
 </p>
+
